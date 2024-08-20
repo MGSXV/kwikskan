@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  kwikskan-frontend-dev:
+    image: kwikskan-frontend-dev
+    container_name: kwikskan-frontend-dev
+    # stdin_open: true
+    # tty: true
+    build:
+      context: ./client
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./client:/app
+    environment:
+      - CHOKIDAR_USEPOLLING=true # This is for Windows users
+    env_file:
+      - ./client/.env
