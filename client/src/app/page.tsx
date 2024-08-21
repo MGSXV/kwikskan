@@ -1,5 +1,5 @@
 import MaxWidthWrapper from "@/components/common/MaxWidthWrapper";
-import HeroSection from "@/components/HeroSection/HeroSection";
+import HeroSection from "@/components/Home/HeroSection";
 import { buttonVariants } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
