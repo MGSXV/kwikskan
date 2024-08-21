@@ -1,4 +1,5 @@
 import MaxWidthWrapper from "@/components/common/MaxWidthWrapper";
+import FeaturesSection from "@/components/Home/FeaturesSection";
 import HeroSection from "@/components/Home/HeroSection";
 import { buttonVariants } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
@@ -29,6 +30,7 @@ export default function Home() {
 				</Link>
 			</MaxWidthWrapper>
 			<HeroSection />
+			<FeaturesSection />
 		</Fragment>
 	);
 }
